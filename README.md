@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to Start?
 
-## Getting Started
+```
+# Step 0 : 처음 시작한 경우
+yarn install
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
+# Step 1 : 실행
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+• 주요 개발 언어 및 프레임워크
+- Next, TypeScript
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+• 페이지 스타일링
+- Styled-components
+```
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+## Git branch & [Git Flow](https://techblog.woowahan.com/2553/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+main(default)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+feature
 
-## Deploy on Vercel
+hotfix: 배포 후 문제 수정
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Git Commit Message
+
+| 헤더     | 내용                                                          |
+| -------- | ------------------------------------------------------------- |
+| feat     | 새로운 기능 추가                                              |
+| refactor | 코드 리팩토링                                                 |
+| fix      | 버그 수정                                                     |
+| style    | 세미 콜론 수정, 줄바꿈, css 변경 등 기능과 무관한 스타일 변경 |
+| setting  | 빌드수행, 패키지 설치, 환경 설정 수정 등                      |
+| docs     | 주석 추가 및 삭제, readme 작성                                |
