@@ -6,6 +6,9 @@ yarn install
 
 # Step 1 : 실행
 yarn dev
+
+# Step 2 : JSON 서버
+json-server -p 9000 db.json
 ```
 
 <br/>
@@ -17,30 +20,11 @@ yarn dev
 - Next, TypeScript
 
 • 페이지 스타일링
-- Styled-components
+- Styled-components, React-bootstrap
 ```
 
 <br/>
 
-## Git branch & [Git Flow](https://techblog.woowahan.com/2553/)
+## 구현영상
 
-```
-main(default)
-
-feature
-
-hotfix: 배포 후 문제 수정
-```
-
-<br/>
-
-## Git Commit Message
-
-| 헤더     | 내용                                                          |
-| -------- | ------------------------------------------------------------- |
-| feat     | 새로운 기능 추가                                              |
-| refactor | 코드 리팩토링                                                 |
-| fix      | 버그 수정                                                     |
-| style    | 세미 콜론 수정, 줄바꿈, css 변경 등 기능과 무관한 스타일 변경 |
-| setting  | 빌드수행, 패키지 설치, 환경 설정 수정 등                      |
-| docs     | 주석 추가 및 삭제, readme 작성                                |
+https://user-images.githubusercontent.com/69390311/192157110-a07ec6f9-162c-4452-ba39-1b161f0511fb.mp4

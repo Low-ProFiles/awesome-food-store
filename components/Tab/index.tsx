@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 const Tab = () => {
   const aboutRoute = () => {
-    Router.push("about");
+    Router.push("/");
   };
   const storeRoute = () => {
-    Router.push("/");
+    Router.push("/store");
   };
 
   return (

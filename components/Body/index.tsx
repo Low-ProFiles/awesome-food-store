@@ -11,12 +11,13 @@ const Body = ({ children }: BodyProps) => {
 const BodyMain = styled.div`
   display: grid;
   place-content: center;
-  width: 40%;
+  width: 35%;
   height: 100%;
   margin: 2% auto;
+  padding: 2% 0;
   border-radius: 8px;
   border: 2px solid #888888;
-  min-height: 650px;
+  min-height: 600px;
 `;
 
 export default Body;
